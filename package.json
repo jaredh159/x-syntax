@@ -1,0 +1,18 @@
+{
+  "name": "x-syntax",
+  "version": "1.0.0",
+  "description": "passthrough tagged template literal for getting vscode syntax highlighting",
+  "repository": "github:jaredh159/x-syntax",
+  "main": "./dist/index.js",
+  "browser": "./src/index.ts",
+  "sideEffects": false,
+  "author": "Jared Henderson <jared@netrivet.com>",
+  "license": "MIT",
+  "scripts": {
+    "compile": "tsc",
+    "prepublishOnly": "npm run compile"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  }
+}
