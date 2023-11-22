@@ -1,6 +1,6 @@
 {
   "name": "x-syntax",
-  "version": "2.0.0",
+  "version": "2.0.0-beta1",
   "description": "passthrough tagged template literal for getting vscode syntax highlighting",
   "repository": "github:jaredh159/x-syntax",
   "main": "./dist/index.js",
